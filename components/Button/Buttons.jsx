@@ -1,9 +1,13 @@
 import React from 'react'
 import {ScrollFadeIn} from '../Animations/ScrollAnimation'
+import Link from "next/link";
 export  const PrimaryBtn = () => {
   return (
-    <div className="flex-[1.2] text-[400] bg-white rounded-full text-center font-[Geist] text-[#5B1EF6] py-1 px-2 text-[14px]">
-      Book a free discorvery call
+    <div className="flex-[1.2] text-[400] bg-white rounded-full text-center font-[Geist] text-[#5B1EF6] py-1 px-2 text-[14px] cursor-pointer">
+      <Link href="https://calendly.com/mary-nexavaluable/30min">
+      
+        Book a free discorvery call
+      </Link>
     </div>
   );
 };
@@ -19,9 +23,12 @@ export const PrimaryBtns = () => {
       border-2
       border-[#5B1EF6]
       text-[14px]
+      cursor-pointer
       "
     >
-      Book a free discorvery call
+      <Link href="https://calendly.com/mary-nexavaluable/30min">
+        Book a free discorvery call
+      </Link>
     </div>
   );
 };
@@ -38,10 +45,14 @@ export const PrimaryBtns = () => {
         className="
         prbtns
     bg-[#5B1EF6] rounded-full 
-     font-[Geist] text-white text-[14px] flex items-center justify-center gap-2
+     font-[Geist] text-white text-[14px] flex items-center justify-center gap-2  cursor-pointer
     "
       >
-        Book a free discorvery call
+        <Link href="https://calendly.com/mary-nexavaluable/30min">
+          
+          Book a free discorvery call
+        </Link>
+
         <span>
           <img src="/icons/arrow_right_circle_line.svg" alt="" />
         </span>
@@ -63,7 +74,10 @@ export const PrimaryBtns = () => {
      font-[Geist] text-white text-[14px] flex items-center justify-center gap-2
     "
        >
-         Book a free discorvery call
+         <Link href="https://calendly.com/mary-nexavaluable/30min">
+           {" "}
+           Book a free discorvery call
+         </Link>
        </div>
      </ScrollFadeIn>
    );

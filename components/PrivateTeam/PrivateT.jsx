@@ -12,7 +12,7 @@ function PrivateT() {
           >
             Private Communication Built for Teams
           </h5>
-          <div className="cd-description prbtns" data-aos="fade-up">
+          <div className="cd-description prbtns text-[20px]" data-aos="fade-up">
             Connect securely with your team using just your organization’s
             unique access code—no phone numbers, no personal data. Chat, share
             files, and jump on HD video calls - all in one confidential,

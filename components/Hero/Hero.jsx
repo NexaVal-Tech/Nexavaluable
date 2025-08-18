@@ -5,8 +5,6 @@ function Hero() {
   return (
     <div
       className="w-[95%] m-auto mt-5  py-3 
-     
-
     "
     >
       <div className=" sm:w-[90%] m-auto flex items-center justify-center  mt-5  gap-5">
@@ -19,19 +17,19 @@ function Hero() {
           sm:text-[20px] leading-[24px] trackin-[-2%]
          mt-5"
           >
-            We don’t just build apps. We build startups. 🚀
+            We don’t just build apps. We build startups.
           </p>
 
           <div className="heroText heroTextFont font-[500]  w-[90%] m-auto sm:w-full text-[50px] sm:text-[70px] ">
             <div data-aos="fade-up">
-              Your Trusted Tech Team. From
+              Your Trusted Tech Team: From
               <span className="heroStyledText"> Idea to Launch</span>
             </div>
           </div>
 
           <div className="">
             <p
-              className="sm:w-[55%] w-[90%] m-auto   sm:text-[14px] ptBody sm:mt-5 "
+              className="sm:w-[55%] w-[90%] m-auto   sm:text-[14px] ptBody sm:mt-5 cd-description "
               data-aos="zoom-in"
             >
               Nexaval helps startups go from zero to launch with branding,

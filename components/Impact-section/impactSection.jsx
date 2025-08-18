@@ -46,9 +46,9 @@ const Card = ({ number, title, descrption, style, textColor, nucolor }) => {
             className="text-[#F59E0B]
             "
           >
-            Built for Impact.
+            Built for Impact <span> </span>-   <span>  </span>
           </span>
-          Delivered with Excellence
+             Delivered with Excellence
         </div>
 
         <FadeUpOnScroll>

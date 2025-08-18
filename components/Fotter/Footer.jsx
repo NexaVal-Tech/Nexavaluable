@@ -31,10 +31,8 @@ function Footer() {
           <p className="mt-4 text-base sm:text-lg text-white/90">
             Let’s bring your product to life.
           </p>
-          <div className="mt-6">
-            <a href="#contact" className="inline-block ">
-              <PrimaryBtn />
-            </a>
+          <div className="mt-6 inline-block">
+            <PrimaryBtn />
           </div>
         </div>
       </section>
