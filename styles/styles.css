@@ -1,0 +1,238 @@
+/* styles/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a div li p h1 h2 h4 h5 h6 span {
+  font-family: Geist;
+}
+
+@media (min-width: 400px) and (max-width: 1024px) {
+  .wd50 {
+    width: 80% !important;
+  }
+  .left{
+    text-align: left !important;
+  }
+}
+
+.bg{
+background: linear-gradient(180deg, rgba(91, 30, 246, 0.24) 0%, rgba(255, 255, 255, 0.1) 62.42%);
+}
+
+.heroTextFont{   
+font-weight: 500;
+font-style: Medium;
+line-height: 120%;
+letter-spacing: -4%;
+text-align: center;
+font-family: Geist;
+}
+
+.heroStyledText {
+  background: linear-gradient(300deg, #F59E0B 0%, #373535 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Optional: for Firefox */
+  background-clip: text;
+  color: transparent;
+}
+
+.ptBody{
+font-family: Geist !important;
+font-weight: 400 !important;
+font-style: Regular !important;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: -2%;
+text-align: center;
+color: #15171A !important;
+}
+
+
+
+
+.cardHolder{
+display: flex;
+width:  100%;
+padding: 40px 0;
+align-items: flex-start;
+gap: 10px;
+}
+
+
+.cardimageHolder{
+/* height: 200px;
+360px */
+flex-shrink: 0;
+aspect-ratio: 3/2;
+border-radius: 24px;
+border: 4px solid var(--White, #FFF);
+}
+.card1Image{
+  background: url('../public/images/firstcard.png') lightgray 0px 0px / 100% 112.5% no-repeat;
+}
+
+.card2Image{
+  background: url('../public/images/secondCard.png') lightgray 0px 0px / 100% 112.5% no-repeat;
+}
+
+
+.card3Image{
+  background: url('../public/images/lastCard.png') lightgray 0px 0px / 100% 112.5% no-repeat;
+}
+
+/* .cardimage{
+  
+} */
+
+
+
+
+.ambinution{
+/* background: #5971FF; */
+background:url('../public/images/Rectangle.svg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+
+
+.amb-style{
+  font-family: Geist;
+font-weight: 500;
+font-style: Medium;
+font-size: 48px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.amp-p{
+font-family: Geist;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -2%;
+text-align: center;
+
+}
+
+.cd-title{
+  font-family: Geist;
+font-weight: 600 !important;
+font-style: Medium;
+line-height: 100% !important;
+letter-spacing: 0%;
+margin-bottom: 1rem !important;
+
+
+}
+
+.cd-description{
+ 
+  font-family: Geist;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -2%;
+
+}
+
+
+
+
+
+.prbtns{
+width: fit-content;
+height: fit-content;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 8px;
+padding-left: 16px;
+gap: 10px;
+opacity: 1;
+border-radius: 40px;
+
+
+
+
+font-family: Geist;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+
+letter-spacing: -2%;
+
+}
+
+
+
+
+.aiauto{
+  font-family: "Geist";
+font-weight: 500;
+font-style: Medium;
+font-size: 35px;
+
+letter-spacing: 0%;
+
+}
+
+
+.iphone{
+  background-image: url('../public/images/iphone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 24px;
+}
+
+
+
+.impactCard{
+  /* width: 220px; */
+/* height: 300px; */
+justify-content: space-between;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+opacity: 1;
+border-radius: 40px;
+border-width: 2px;
+
+
+}
+
+
+.gradient{
+  background: linear-gradient(163.36deg, #5B1EF6 -33.94%, #F59E0B 18.93%, #5B1EF6 48.37%, #DE492B 97.22%);
+
+}
+
+.max-width{
+  max-width:1200px ;
+}
+
+
+.footerbg{
+  background-image: url('../public/images/40.svg');
+  background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.footergr{
+  background: linear-gradient(90deg, #5B1EF6 2.23%, #229EFF 98.89%);
+
+}
