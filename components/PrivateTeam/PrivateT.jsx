@@ -10,13 +10,12 @@ function PrivateT() {
             className="font-[800] text-[35px] font-[Geist]  p-2"
             data-aos="fade-up"
           >
-            Private Communication Built for Teams
+            {/* Private Communication Built for Teams */}
+            Trust. Connect. Communicate
           </h5>
           <div className="cd-description prbtns text-[20px]" data-aos="fade-up">
-            Connect securely with your team using just your organization’s
-            unique access code—no phone numbers, no personal data. Chat, share
-            files, and jump on HD video calls - all in one confidential,
-            all-in-one platform built for hospitals and large organizations.
+            Chat, share, and video call with your team anywhere using just an
+            access code. No personal data, fully encrypted, blockchain-powered.
           </div>
           <div className="btn mt-3 mb-3 ">
             <SecondryBtn />
