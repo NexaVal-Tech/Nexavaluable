@@ -8,7 +8,7 @@ function ambitiousCard() {
       <FadeUpOnScroll>
         <div className=" bg-white p-4 rounded-[24px] max-h-[fit] ">
           <h5 className="cd-title">{title}</h5>
-          <p className="cd-description ">{description}</p>
+          <p className="cd-description !text-[20px] ">{description}</p>
         </div>
       </FadeUpOnScroll>
     );
@@ -30,7 +30,7 @@ function ambitiousCard() {
           <div className=" sm:w-[55%] m-auto mt-5  text-white">
             <FadeInCard>
               <div className="amb-style pt-7 ">
-                For ambitious founders and fast-growing teams.
+                For founders that prioritize quality, speed, and scalability
               </div>
             </FadeInCard>
             <p className="amp-p mt-2">
@@ -42,7 +42,7 @@ function ambitiousCard() {
             </div>
           </div>
 
-          <div className=" mt-4   grid  sm:grid-cols-3 gap-5 ">
+          <div className=" mt-4   grid  sm:grid-cols-3 gap-5  ">
             <Card
               title="Product Strategy"
               description={

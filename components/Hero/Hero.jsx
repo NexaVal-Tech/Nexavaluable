@@ -32,8 +32,9 @@ function Hero() {
               className="sm:w-[55%] w-[90%] m-auto   sm:text-[14px] ptBody sm:mt-5 cd-description "
               data-aos="zoom-in"
             >
-              Nexaval helps startups go from zero to launch with branding,
-              design, apps, and end-to-end security at founder-friendly prices
+              Nexaval combines design, development, and AI automation to save
+              founders time, cut costs, and speed up launch, so you can focus on
+              growth.
             </p>
           </div>
 

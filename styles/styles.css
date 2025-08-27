@@ -236,3 +236,7 @@ background-position: center;
   background: linear-gradient(90deg, #5B1EF6 2.23%, #229EFF 98.89%);
 
 }
+
+.overflowWidth-0::-webkit-scrollbar{
+  width: 0;
+}
