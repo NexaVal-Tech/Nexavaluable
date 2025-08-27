@@ -11,7 +11,7 @@ function PrivateT() {
             data-aos="fade-up"
           >
             {/* Private Communication Built for Teams */}
-            Trust. Connect. Communicate
+            Doxynex - Trust. Connect. Communicate
           </h5>
           <div className="cd-description prbtns text-[20px]" data-aos="fade-up">
             Chat, share, and video call with your team anywhere using just an

@@ -29,9 +29,10 @@ function WhySec() {
               >
                 <div className="mb-4 text-[#09244B] text-[30px]">★★★★★</div>
                 <p className="text-gray-600 ">
-                  “NexavalTech took our rough idea and turned it into a polished
-                  platform in just weeks. Their design and dev team felt like
-                  part of our startup.”
+                  “NexavalTech supported me throughout my app development
+                  journey, transforming my ideas into a real product. At first,
+                  I didn’t know where or how to start, but their team guided me
+                  through every stage of the process. ”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
                   <img
@@ -39,7 +40,7 @@ function WhySec() {
                     src="https://i.pravatar.cc/40?img=1"
                     alt="User 1"
                   />
-                  <span className="font-semibold">Melissa B</span>
+                  <span className="font-semibold">Salim</span>
                 </div>
               </article>
               {/* Card 2 */}
@@ -49,9 +50,9 @@ function WhySec() {
               >
                 <div className="mb-4 text-[#09244B] text-[30px]">★★★★★</div>
                 <p className="text-gray-600">
-                  “NexavalTech took our rough idea and turned it into a polished
-                  platform in just weeks. Their design and dev team felt like
-                  part of our startup.”
+                  “NexavalTech helped us design and develop our learning
+                  platform. The team is highly dedicated and kept us involved at
+                  every step. Their openness and support are truly top-notch.”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
                   <img
@@ -59,7 +60,7 @@ function WhySec() {
                     src="https://i.pravatar.cc/40?img=2"
                     alt="User 2"
                   />
-                  <span className="font-semibold">Sandra Y</span>
+                  <span className="font-semibold">David</span>
                 </div>
               </article>
               {/* Card 3 */}
@@ -69,9 +70,10 @@ function WhySec() {
               >
                 <div className="mb-4 text-[#09244B] text-[30px]">★★★★★</div>
                 <p className="text-gray-600">
-                  “NexavalTech took our rough idea and turned it into a polished
-                  platform in just weeks. Their design and dev team felt like
-                  part of our startup.”
+                  “NexavalTech helped refine my ideas, outlined a clear roadmap,
+                  and guided me on how I could build my e-commerce platform. The
+                  team is highly innovative, accommodating, and a pleasure to
+                  work with. I would choose them again and again.”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
                   <img
@@ -79,7 +81,7 @@ function WhySec() {
                     src="https://i.pravatar.cc/40?img=3"
                     alt="User 3"
                   />
-                  <span className="font-semibold">James K</span>
+                  <span className="font-semibold">Emmanuel</span>
                 </div>
               </article>
               {/* Card 4 */}
@@ -89,9 +91,9 @@ function WhySec() {
               >
                 <div className="mb-4 text-[#09244B] text-[30px]">★★★★★</div>
                 <p className="text-gray-600">
-                  “NexavalTech took our rough idea and turned it into a polished
-                  platform in just weeks. Their design and dev team felt like
-                  part of our startup.”
+                  “I was experiencing a high bounce rate on my e-commerce
+                  platform, but NexavalTech showed me how to optimize the site
+                  and SEO to improve conversions. Great team! .”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
                   <img
@@ -99,11 +101,11 @@ function WhySec() {
                     src="https://i.pravatar.cc/40?img=4"
                     alt="User 4"
                   />
-                  <span className="font-semibold">Linda T</span>
+                  <span className="font-semibold"> Francis</span>
                 </div>
               </article>
               {/* Card 5 */}
-              <article
+              {/* <article
                 className="bg-white rounded-2xl shadow-md p-6 min-h-[240px] flex flex-col justify-between lg:mb-5"
                 data-aos="fade-right"
               >
@@ -121,9 +123,9 @@ function WhySec() {
                   />
                   <span className="font-semibold">Robert F</span>
                 </div>
-              </article>
+              </article> */}
               {/* Card 6 */}
-              <article
+              {/* <article
                 className="bg-white rounded-2xl shadow-md p-6 min-h-[240px] flex flex-col justify-between"
                 data-aos="fade-left"
               >
@@ -141,7 +143,7 @@ function WhySec() {
                   />
                   <span className="font-semibold">Chloe M</span>
                 </div>
-              </article>
+              </article> */}
             </div>
           </section>
         </div>

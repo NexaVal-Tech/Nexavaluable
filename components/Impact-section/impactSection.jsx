@@ -13,7 +13,7 @@ const Card = ({ number, title, descrption, style, textColor, nucolor }) => {
           sm:w-[250px]
           w-[90%]
           m-auto
-           h-[350px]
+          h-[350px]
           sm:h-[300px] flex flex-col "
         style={style}
       >
@@ -36,7 +36,7 @@ const Card = ({ number, title, descrption, style, textColor, nucolor }) => {
 };
 
   return (
-    <div className="container text-center mt-5 max-width">
+    <div className="container text-center mt-5 max-width  mb-5">
       <div className="text">
         <div
           className=" cd-title
@@ -46,9 +46,9 @@ const Card = ({ number, title, descrption, style, textColor, nucolor }) => {
             className="text-[#F59E0B]
             "
           >
-            Built for Impact <span> </span>-   <span>  </span>
+            Built for Impact <span> </span>- <span> </span>
           </span>
-             Delivered with Excellence
+          Delivered with Excellence
         </div>
 
         <FadeUpOnScroll>

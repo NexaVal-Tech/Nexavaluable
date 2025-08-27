@@ -12,18 +12,12 @@ function Hero() {
           className=" sm:w-[90%]  m-auto 
         text-center   flex flex-col gap-3"
         >
-          <p
-            className="text-[#565B66] font-[Geist] font-[400] text-[18px] 
-          sm:text-[20px] leading-[24px] trackin-[-2%]
-         mt-5"
-          >
-            We don’t just build apps. We build startups.
-          </p>
+         
 
-          <div className="heroText heroTextFont font-[500]  w-[90%] m-auto sm:w-full text-[50px] sm:text-[70px] ">
+          <div className="heroText heroTextFont font-[500]  w-[90%] m-auto sm:w-full text-[50px] sm:text-[70px] mt-5 ">
             <div data-aos="fade-up">
-              Your Trusted Tech Team: From
-              <span className="heroStyledText"> Idea to Launch</span>
+              Your Trusted Tech Team. From
+              <span className="heroStyledText"> Idea to Launch.</span>
             </div>
           </div>
 

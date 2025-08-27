@@ -34,10 +34,11 @@ function index() {
       <ScrollingCards />
       <AmbitiousCard />
       <AiautoCard />
-      <PrivateT />
       <ImpactSection />
+      <PrivateT />
+
       <WhySec />
-      < Footer />
+      <Footer />
     </LadingLayout>
   );
 
