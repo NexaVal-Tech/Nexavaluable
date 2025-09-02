@@ -1,6 +1,8 @@
 import React from 'react'
 import AdminLayout from './adminLayout'
 import  EmailHistoryTable from './AdminComponents/Tables/EmailHistoryTable'
+import withAuth from '../../lib/withAuth'
+
 function index() {
   return (
     <AdminLayout>
@@ -36,4 +38,4 @@ function index() {
   );
 }
 
-export default index
+export default withAuth(index);

@@ -240,3 +240,11 @@ background-position: center;
 .overflowWidth-0::-webkit-scrollbar{
   width: 0;
 }
+
+.form-input {
+  height: 50px;
+}
+
+.button {
+  
+}

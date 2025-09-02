@@ -13,20 +13,6 @@ import PrivateT from '../components/PrivateTeam/PrivateT'
 import WhySec from '../components/Whysection/WhySec'
 import Footer from '../components/Fotter/Footer'
 function index() {
-  //  useEffect(() => {
-  //    inView(".scroll-section pre", (element) => {
-  //      animate(
-  //        element,
-  //        { opacity: 1, x: [-100, 0] },
-  //        {
-  //          duration: 0.9,
-  //          easing: [0.17, 0.55, 0.55, 1],
-  //        }
-  //      );
-
-  //      return () => animate(element, { opacity: 0, x: -100 });
-  //    });
-  //  }, []);
 
   return (
     <LadingLayout>
@@ -46,7 +32,3 @@ function index() {
 }
 
 export default index 
-
-
-
-// ambinution;

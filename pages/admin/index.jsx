@@ -1,11 +1,16 @@
-import React from 'react'
-import AdminLayout from './adminLayout'
-import AppointmentTable from './AdminComponents/Tables/AppointmentTable'
-function index() {
+import React from 'react';
+import AdminLayout from './adminLayout';
+import AppointmentTable from './AdminComponents/Tables/AppointmentTable';
+import withAuth from '../../lib/withAuth';
+import { getAuthUser } from '../../lib/auth';
+
+function AdminIndex() {
+  const user = getAuthUser();
+
   return (
     <AdminLayout>
       <div className="usernmae font-extrabold font-[Geist] text-[24px]">
-        Welcome Back Ejiro,
+        Welcome Back {user?.name || 'Ejiro'},
       </div>
       <div className="mt-3 flex item w-[100%] justify-between ">
         <div className="row bg-[#F0F1F2] w-[40%] rounded-full ">
@@ -28,10 +33,10 @@ function index() {
         </div>
       </div>
       <div className='Appointment mt-4 '>
-        < AppointmentTable />
+        <AppointmentTable />
       </div>
     </AdminLayout>
   );
 }
 
-export default index
+export default withAuth(AdminIndex);
