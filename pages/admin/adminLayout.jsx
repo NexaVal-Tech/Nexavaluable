@@ -2,7 +2,7 @@ import SideBar from "./sideBar";
 
 export default function adminLayout({ children }) {
   return (
-    <div className="   sm:fixed w-full">
+    <div className="sm:fixed w-full">
       <header className="w-[100%] p-2 flex items-center justify-center fixed z-10 "></header>
 
       <main className="h-[100vh] flex  ">

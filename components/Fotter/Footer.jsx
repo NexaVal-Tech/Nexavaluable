@@ -21,9 +21,7 @@ function Footer() {
         {/* Pill Box */}
         <div className="w-full max-w-5xl rounded-[30px] px-3 sm:px-10 md:px-16 py-5 sm:py-12 text-center footer mt-5 ">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-normal leading-tight  text-[#FFFFFF] font-[Geist] ">
-            Join thousands of startups 
-             <br className="hidden sm:block " />
-             building with Nexaval Tech
+            Join thousands of startups <br className="hidden sm:block " />building with Nexaval Tech
           </h1>
           <p className="mt-4 text-base sm:text-lg text-white/90">
             Let’s bring your product to life.

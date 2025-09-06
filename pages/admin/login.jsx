@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import { adminAuth } from '../../lib/Api';
 
 export default function AdminLogin() {
   const [formData, setFormData] = useState({
@@ -30,36 +31,26 @@ export default function AdminLogin() {
     setError('');
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/v1/admin/login`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: formData.email,
-          password: formData.password
-        })
+      // Use your API function
+      const data = await adminAuth.login({
+        email: formData.email,
+        password: formData.password
       });
 
-      const data = await response.json();
-
-      if (response.ok) {
-        // Store auth token
-        const storage = formData.rememberMe ? localStorage : sessionStorage;
-        storage.setItem('adminToken', data.token);
-        storage.setItem('adminUser', JSON.stringify(data.user));
-        
-        // Redirect to admin dashboard
-        router.push('/admin');
-      } else {
-        setError(data.message || 'Login failed. Please check your credentials.');
-      }
+      // Store auth token and user data
+      const storage = formData.rememberMe ? localStorage : sessionStorage;
+      storage.setItem('adminToken', data.token);
+      storage.setItem('adminUser', JSON.stringify(data.user));
+      
+      // Redirect to admin dashboard
+      router.push('/admin');
     } catch (err) {
-      setError('Network error. Please try again.');
+      setError(err.message);
     } finally {
       setIsLoading(false);
     }
   };
+
 
   return (
     <>
@@ -74,12 +65,13 @@ export default function AdminLogin() {
             {/* Logo */}
             <div className="text-center mb-8">
               <div className="inline-flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+                {/* <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-sm">n</span>
                 </div>
                 <span className="text-xl font-semibold text-gray-800">
                   nexoval<span className="text-purple-600">tech</span>
-                </span>
+                </span> */}
+                <img src="/images/logos/darklogo.svg" alt="logo" />
               </div>
               <p className="text-gray-600">Please enter your details</p>
             </div>

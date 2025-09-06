@@ -4,7 +4,7 @@ import {FadeUpOnScroll} from '../Animations/ScrollAnimation'
 function Hero() {
   return (
     <div
-      className="w-[95%] m-auto mt-5  py-3 
+      className="w-[100%] m-auto mt-5  py-3 
     "
     >
       <div className=" sm:w-[90%] m-auto flex items-center justify-center  mt-5  gap-5">
@@ -16,7 +16,7 @@ function Hero() {
 
           <div className="heroText heroTextFont font-[500]  w-[90%] m-auto sm:w-full text-[50px] sm:text-[70px] mt-5 ">
             <div data-aos="fade-up">
-              Your Trusted Tech Team. From
+              Your Trusted Tech Team. <br /> From
               <span className="heroStyledText"> Idea to Launch.</span>
             </div>
           </div>

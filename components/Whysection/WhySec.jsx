@@ -2,10 +2,10 @@ import React from 'react'
 import {SecondryBtns} from '../Button/Buttons'
 function WhySec() {
   return (
-    <div className=" overflow-hidden">
+    <div className=" overflow-hidden ">
       <div className="container mt-5">
         <div className="text w-[99%] text-center">
-          <div className="cd-title font-[800] text-[35px] font-[Geist]  p-2">
+          <div className="cd-titl font-[800] text-[35px] font-[Geist]  p-2">
             See why we are your best tech partner
           </div>
           <div className="cd-description w-[90%] sm:w-[50%] m-auto text-[14px]">
@@ -35,11 +35,11 @@ function WhySec() {
                   through every stage of the process. ”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
-                  <img
+                  {/* <img
                     className="w-10 h-10 rounded-full"
                     src="https://i.pravatar.cc/40?img=1"
                     alt="User 1"
-                  />
+                  /> */}
                   <span className="font-semibold">Salim</span>
                 </div>
               </article>
@@ -55,11 +55,11 @@ function WhySec() {
                   every step. Their openness and support are truly top-notch.”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
-                  <img
+                  {/* <img
                     className="w-10 h-10 rounded-full"
                     src="https://i.pravatar.cc/40?img=2"
                     alt="User 2"
-                  />
+                  /> */}
                   <span className="font-semibold">David</span>
                 </div>
               </article>
@@ -76,11 +76,11 @@ function WhySec() {
                   work with. I would choose them again and again.”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
-                  <img
+                  {/* <img
                     className="w-10 h-10 rounded-full"
                     src="https://i.pravatar.cc/40?img=3"
                     alt="User 3"
-                  />
+                  /> */}
                   <span className="font-semibold">Emmanuel</span>
                 </div>
               </article>
@@ -96,11 +96,11 @@ function WhySec() {
                   and SEO to improve conversions. Great team! .”
                 </p>
                 <div className="mt-4 flex items-center gap-3">
-                  <img
+                  {/* <img
                     className="w-10 h-10 rounded-full"
                     src="https://i.pravatar.cc/40?img=4"
                     alt="User 4"
-                  />
+                  /> */}
                   <span className="font-semibold"> Francis</span>
                 </div>
               </article>

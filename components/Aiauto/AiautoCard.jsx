@@ -3,18 +3,9 @@ import {SecondryBtn} from '../Button/Buttons'
 import {FadeUpOnScroll} from '../Animations/ScrollAnimation'
 function AiautoCard() {
   return (
-    <div className="container mt-5 bg-[#FFFFFF1A]  ">
-      <div
-        className="m-auto sm:h-[400px] flex flex-col 
- sm:flex-row sm:justify-between
-
- gap-10
-        "
-      >
-        <div
-          className=" md:w-[45%] flex gap-2 h-2/4 flex-col  "
-          data-aos="fade-right  "
-        >
+    <div className=" w-[80%] container mt-5 bg-[#FFFFFF1A]  ">
+      <div className="m-auto sm:h-[400px] flex flex-col  sm:flex-row sm:justify-between gap-10 " >
+        <div className=" md:w-[45%] flex gap-2 h-2/4 flex-col  " data-aos="fade-right  " >
           <p
             className="aiauto cd-title text-center sm:!text-left  leading-3 "
             data-aos="fade-right  "

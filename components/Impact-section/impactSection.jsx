@@ -8,17 +8,10 @@ function ImpactSection() {
 const Card = ({ number, title, descrption, style, textColor, nucolor }) => {
   return (
     <FadeUpOnScroll>
-      <div
-        className="impactCard
-          sm:w-[250px]
-          w-[90%]
-          m-auto
-          h-[350px]
-          sm:h-[300px] flex flex-col "
+      <div className="impactCard sm:w-[300px] w-[90%] m-auto h-[350px] sm:h-[300px] flex flex-col bg-white"
         style={style}
       >
-        <div
-          className=" w-[90%]  mt-2 flex m-auto  font-[Geist]  tracking-wide  text-[#F26969] text-[20px] "
+        <div className=" w-[90%]  mt-2 flex m-auto  font-[Geist]  tracking-wide  text-[#F26969] text-[20px] "
           style={nucolor}
         >
           {number}
@@ -38,14 +31,8 @@ const Card = ({ number, title, descrption, style, textColor, nucolor }) => {
   return (
     <div className="container text-center mt-5 max-width  mb-5">
       <div className="text">
-        <div
-          className=" cd-title
-          font-[800] text-[35px] font-[Geist]  p-2"
-        >
-          <span
-            className="text-[#F59E0B]
-            "
-          >
+        <div className=" cd-titl font-[800] text-[35px] font-[Geist]  p-2">
+          <span className="text-[#F59E0B]">
             Built for Impact <span> </span>- <span> </span>
           </span>
           Delivered with Excellence
@@ -63,14 +50,7 @@ const Card = ({ number, title, descrption, style, textColor, nucolor }) => {
         </FadeUpOnScroll>
       </div>
 
-      <div
-        className="container mt-5 h-fit 
-       grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5
-
-
-
-      "
-      >
+      <div className="container mt-5 h-fit grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 ">
         <Card
           number={"[ 01 ]"}
           title={"Trusted Expert"}

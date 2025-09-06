@@ -4,8 +4,8 @@ import Link from "next/link";
 export  const PrimaryBtn = () => {
   return (
     <div className="flex-[1.2] text-[400]  bg-white rounded-full text-center font-[Geist] text-[#5B1EF6] py-1 px-2 text-[14px] cursor-pointer hover:!bg-[#cebbfc] hover:!text-white">
-      <Link href="https://calendly.com/mary-nexavaluable/30min">
-        Book a free discorvery call
+      <Link href="/book-a-session">
+        Book a Demo
       </Link>
     </div>
   );
@@ -26,8 +26,8 @@ export const PrimaryBtns = () => {
       hover:!bg-[#cebbfc] hover:!text-black
       "
     >
-      <Link href="https://calendly.com/mary-nexavaluable/30min">
-        Book a free discorvery call
+      <Link href="/book-a-session">
+        Book a Demo
       </Link>
     </div>
   );
@@ -48,8 +48,8 @@ export const PrimaryBtns = () => {
      font-[Geist] text-white text-[14px] flex items-center justify-center gap-2  cursor-pointer  hover:!bg-[#cebbfc] hover:!text-black
     "
       >
-        <Link href="https://calendly.com/mary-nexavaluable/30min">
-          Book a free discorvery call
+        <Link href="/book-a-session">
+          Book a Demo
         </Link>
 
         <span>
@@ -74,9 +74,9 @@ export const PrimaryBtns = () => {
       hover:!bg-[#cebbfc] hover:!text-black
     "
        >
-         <Link href="https://calendly.com/mary-nexavaluable/30min">
+         <Link href="/book-a-session">
            {" "}
-           Book a free discorvery call
+           Book a Demo
          </Link>
        </div>
      </ScrollFadeIn>

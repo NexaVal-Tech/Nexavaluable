@@ -1,6 +1,7 @@
 import React from 'react'
 import { PrimaryBtns } from "../Button/Buttons";
 import { ZoomAnimation,FadeInCard, FadeUpOnScroll } from "../Animations/ScrollAnimation";
+
 function ambitiousCard() {
 
   const Card = ({ title, description})=>{
@@ -14,19 +15,10 @@ function ambitiousCard() {
     );
   }
 
-
-
   return (
-    <div
-      className="w-full  
-      flex items-center justify-center 
-      sm:pt-5
-     
-     
-    "
-    >
-      <div className="  ambinution  w-[98%] rounded-[40px] flex items-center justify-center pb-5 border-5 border-white-100  max-w-[1200px]">
-        <div className="containt-holder  w-[90%] ">
+    <div  className="w-full flex items-center justify-center sm:pt-5 ">
+      <div className="ambinution w-[100%] rounded-[40px] flex items-center justify-center pb-5 border-5 border-white-100 max-w-[1400px] victor">
+        <div className="containt-holder w-[95%]">
           <div className=" sm:w-[55%] m-auto mt-5  text-white">
             <FadeInCard>
               <div className="amb-style pt-7 ">
@@ -46,7 +38,7 @@ function ambitiousCard() {
             <Card
               title="Product Strategy"
               description={
-                "We help shape your idea into a clear plan so you’re building something people actually want"
+                "We help shape your idea into a clear plan so you're building something people actually want"
               }
             />
 
@@ -73,7 +65,7 @@ function ambitiousCard() {
             <Card
               title="Mobile App Development"
               description={
-                "We design and build mobile apps that are smooth, stable, and easy to use whether it’s iOS, Android, or both."
+                "We design and build mobile apps that are smooth, stable, and easy to use whether it's iOS, Android, or both."
               }
             />
 
