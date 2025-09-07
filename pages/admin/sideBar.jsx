@@ -81,7 +81,7 @@ const handleLogout = async () => {
                 </li>
               </Link>
             ) : (
-              <Link href={"/admin/index"}>
+              <Link href={"/admin"}>
                 <li className="w-full flex items-center justify-between p-2 rounded-[8px] ">
                   <div className="flex gap-2">
                     <img
